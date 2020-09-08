@@ -13,6 +13,8 @@ import { A11yModule } from '@angular/cdk/a11y';
 import { MatNativeDateModule, MatRippleModule } from '@angular/material/core';
 import { PortalModule } from '@angular/cdk/portal';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { HttpClientModule } from '@angular/common/http'
+
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     MatTabsModule,
     PortalModule,
     ScrollingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
